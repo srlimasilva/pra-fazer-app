@@ -7,12 +7,13 @@ import {getDatabase} from "firebase/database"
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyCb2BUSH34eVkuYmeaEBxUjrlMO8iEgFpI",
-  authDomain: "pra-fazer-app-dab65.firebaseapp.com",
-  projectId: "pra-fazer-app-dab65",
-  storageBucket: "pra-fazer-app-dab65.appspot.com",
-  messagingSenderId: "757179841789",
-  appId: "1:757179841789:web:7fc9ba1fb7d83f09da9294"
+  apiKey: "AIzaSyBXMiqIFPzfXdm_2iFB2k8xHduwvaDBU0o",
+  authDomain: "pra-fazer-app-add86.firebaseapp.com",
+  databaseURL: "https://pra-fazer-app-add86-default-rtdb.firebaseio.com",
+  projectId: "pra-fazer-app-add86",
+  storageBucket: "pra-fazer-app-add86.appspot.com",
+  messagingSenderId: "420432091823",
+  appId: "1:420432091823:web:8002b84a1ff06c90fbd25a"
 };
 
 // Initialize Firebase
