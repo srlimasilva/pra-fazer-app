@@ -4,6 +4,24 @@ import { StyleSheet, View, Text, TextInput, TouchableOpacity, Image } from "reac
 
 export default function Index() {
     const router = useRouter();
+    const [email,setEmail] = useState("");
+    const [password,setPassword] = useState("");
+    const [erroLogn,setErrorLogin] = useState("");
+
+    const validarCampos = () => {
+        if (nome == "") {
+            setErrorLogin("Informe seu e-mail.");
+        } else if (email == "") {
+            setErrorLogin("Informe sua senha");
+        } else {
+            setErrorLogin("");
+            login();
+        }
+    }
+
+
+
+
     return (
         <View style={styles.container}>
             <Image style={styles.logo} source={require('../assets/images/logo_pra_fazer.png')} />
