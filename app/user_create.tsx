@@ -1,5 +1,3 @@
-
-
 import React, { useState } from 'react'
 import { StyleSheet, View, Text, TextInput, TouchableOpacity } from "react-native";
 import { auth, db } from "../scripts/firebase-config";
